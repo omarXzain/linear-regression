@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "linear-regression"
+version = "0.1.0"
+description = ""
+authors = ["omarXzain <omaren2010@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^2.2.9"
+numpy = "^1.19.4"
+pandas = "^1.1.5"
+matplotlib = "^3.3.3"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
